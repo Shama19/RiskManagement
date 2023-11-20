@@ -44,7 +44,7 @@ module.exports = cds.service.impl(async function() {
                 risk.criticality = 2;
             }
 
-            // set criticality for priority
+            // set criticality test for pipeline for priority
             switch (risk.prio_code) {
                 case 'H':
                     risk.PrioCriticality = 1;
